@@ -9,7 +9,7 @@
 </head>
 <body>
 	<h1>${greetings}</h1>
-	<h2>Wij zijn toch sexy beesten!!</h2>	
+	<h2>Wij zijn toch sexy beesten!!! dfgdfsgdfsgdf</h2>	
 	<img src="<c:url value='/images/osudio_horizontal.png' />">
 </body>
 </html>
