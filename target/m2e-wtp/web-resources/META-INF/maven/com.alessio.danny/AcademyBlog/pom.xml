@@ -3,8 +3,8 @@
   <groupId>com.alessio.danny</groupId>
   <artifactId>AcademyBlog</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
    <url>http://maven.apache.org</url>
+    <packaging>war</packaging>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
