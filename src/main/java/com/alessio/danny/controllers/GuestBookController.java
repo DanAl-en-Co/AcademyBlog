@@ -24,7 +24,7 @@ public class GuestBookController {
 		if (entryService.getGuestBookEntries() != null) {			
 			model.addAttribute("guestBookEntries",entryService.getGuestBookEntries());
 		}
-		return "guestbook";
+		return "pages/guestbook";
 	}
 	
 	@RequestMapping(method = RequestMethod.POST)
