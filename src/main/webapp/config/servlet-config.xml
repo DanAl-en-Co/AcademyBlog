@@ -14,7 +14,7 @@
 
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver"
-		p:prefix="/WEB-INF/views/" p:suffix=".jsp" />
+		p:prefix="/WEB-INF/views/pages/" p:suffix=".jsp" />
 
 	<mvc:resources mapping="/images/**" location="/WEB-INF/images/" />
 
