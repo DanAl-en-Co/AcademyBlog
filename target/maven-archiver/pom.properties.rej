@@ -1,0 +1,6 @@
+diff a/target/maven-archiver/pom.properties b/target/maven-archiver/pom.properties	(rejected hunks)
+@@ -5,3 +5,4 @@
+ #Tue Jan 02 17:05:29 CET 2018
+ version=0.0.1-SNAPSHOT
+ groupId=com.alessio.danny
++artifactId=AcademyBlog
