@@ -6,8 +6,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Osudio Academy Blog</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Osudio Academy Blog</title>
 </head>
 <body>
 	<header>
@@ -21,7 +21,7 @@
 		<p><spring:message code="homepage.intro" /></p>
 		<form action="guestbook" method="post">
 			<p>Enter username :<input type="text" name="username"></p>
-			<p>Enter password :<input type="text" name="message"></p>
+			<p>Share your story :<input type="textarea" name="message"></p>
 			<c:if test="${errorMessage ne null}">
 				<p>${errorMessage}</p>
 			</c:if>
@@ -29,7 +29,7 @@
 		</form>
 	</section>
 	<footer>
-		<p><spring:message code="copyright" /></p>
+		<p><spring:message code="copyright" arguments="${currentYear}"/></p>
 	</footer>
 	
 	
