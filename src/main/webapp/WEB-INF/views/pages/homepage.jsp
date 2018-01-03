@@ -13,7 +13,7 @@
 	<header>
 		<img src="<c:url value='/images/osudio_horizontal.png' />">
 		<nav>
-			<a href="<c:url value='/homepage.jsp' />">Home</a>
+			<a href="<c:url value='/' />">Home</a>
 		</nav>
 	</header>
 	<section>
