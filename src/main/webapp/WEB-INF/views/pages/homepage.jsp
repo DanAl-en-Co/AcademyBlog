@@ -7,6 +7,8 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<c:url value="/css/style.css" var="ourcss"/>
+    <link href="${ourcss}" rel="stylesheet" type="text/css" />
 	<title>Osudio Academy Blog</title>
 </head>
 <body>
